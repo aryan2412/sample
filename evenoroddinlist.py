@@ -14,7 +14,3 @@ for i in a:
         even+=1
     else:
         odd+=1
-
-        
-print("No of even Numbers :-",even)
-print("No. of odd Numbers :-",odd)

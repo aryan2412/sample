@@ -3,6 +3,7 @@ tmp=list()
 for k,v in a.items():
     tmp.append((v,k))
 
-#tmp=sorted(tmp)
-tmp=sorted(tmp,reverse=True)
-print(tmp)
+asc_tmp=sorted(tmp)
+dsc_tmp=sorted(tmp,reverse=True)
+print("sorted dictionary in descending order ={}".format(dsc_tmp))
+print("sorted dictionary in ascending order ={}".format(asc_tmp))
