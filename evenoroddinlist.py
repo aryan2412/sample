@@ -13,5 +13,5 @@ for i in a:
     else:
         odd+=1
 
-print(even)
-print(odd)
+print(even + " are the even numbers in the list.")
+print(odd + " are the odd numbers in the list.")
